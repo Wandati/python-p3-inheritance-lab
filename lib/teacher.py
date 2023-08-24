@@ -22,5 +22,5 @@ class Teacher(User):
 
     def teach(self):
         return random.choice(self.knowledge)
-        # return random.randint(0,len(self.knowledge)-1)
+        
  
